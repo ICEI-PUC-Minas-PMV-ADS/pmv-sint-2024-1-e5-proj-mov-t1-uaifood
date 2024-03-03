@@ -1,23 +1,27 @@
-# TÍTULO DO PROJETO
+# UaiFood
 
-`CURSO`
+`Tecnologia em Sistemas para Internet`
 
-`DISCIPLINA`
+`Desenvolvimento Mobile`
 
-`SEMESTRE`
+`Eixo 5 - 1º semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Para os pequenos produtores, que tem a terra como sua principal fonte de sustento e cuja sua grande dificuldade é comercializar o que produzem no comércio local, e não precisando sair às escuras sem garantia de venda do seu produto. Consequentemente será privilegiado o revendedor que terá produtos saudáveis e frescos todos os dias para oferecerem aos seus clientes, assim não dependendo de intermediários e necessitando à título de economia estocar produtos, correndo o risco de perder seu investimento, especialmente em períodos de clima quente.
+
+O “UaiFood” é um software de relacionamento direto entre o produtor e o revendedor sem a necessidade de intermediários distribuidores, tornando assim o produto mais baratos para comercializar.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-
+* Isadora Cristina Bittencourt
+* Luana Berato dos Santos
+* Márcia Aparecida Albergaria de Carvalho
+* Matheus Gonçalves Moreira
+* Pedro Henrique Chiarelli de Souza
+* Vinícius Gomes Rangel
+    
 ## Orientador
 
-* Nome completo do professor 1
+* Udo Fritzke Junior
 
 ## Instruções de utilização
 
