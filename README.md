@@ -19,7 +19,7 @@ O “UaiFood” é um software de relacionamento direto entre o produtor e o rev
 * Pedro Henrique Chiarelli de Souza
 * Vinícius Gomes Rangel
     
-## Orientador/Assistente
+## Orientador e Assistente
 
 * Udo Fritzke Junior
 * Zulka Iale Moreira Ferreira
