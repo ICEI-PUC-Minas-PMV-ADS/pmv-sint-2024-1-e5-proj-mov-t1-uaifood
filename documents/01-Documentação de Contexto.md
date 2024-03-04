@@ -2,36 +2,34 @@
 
 O "UaiFood" é um software de relacionamento direto entre pequenos produtores agrícolas e revendedores locais, eliminando a necessidade de intermediários distribuidores. Isso possibilita que os produtos frescos e saudáveis dos produtores cheguem aos revendedores a preços mais acessíveis, aumentando os lucros para ambos os lados. Como consequência disso os consumidores finais se beneficiam com saúde, satisfação e economia.
 
-## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
+## Problemas
+1.  Dificuldade de Acesso ao Mercado: Pequenos produtores enfrentam dificuldades para acessar o mercado e encontrar revendedores dispostos a comprar seus produtos, o que resulta em perda de oportunidades de venda e gera sobras e prejuízos.
+2. Falta de Conexão Direta: Produtores e revendedores muitas vezes não têm um canal direto de comunicação, levando a atrasos nas negociações e dificuldade em acordar preços justos.
+3. Desafios na Logística e Entrega: Coordenar a logística e a entrega dos produtos entre produtores e revendedores pode ser complexo e propenso a erros, resultando em atrasos e insatisfação.
+4. Dependência de Intermediários: A dependência de intermediários pode encarecer os produtos, diminuindo a margem de lucro para produtores e aumentando os preços para os consumidores finais.
+5. Falta de Visibilidade e Rastreabilidade: A falta de um sistema centralizado dificulta a rastreabilidade dos produtos ao longo da cadeia de fornecimento, o que pode afetar a confiança dos consumidores na qualidade e origem dos produtos.
+6. Falta de Dados Estratégicos: Produtores e revendedores têm dificuldade em acessar dados estratégicos, como demanda por produtos específicos, preferências dos clientes e tendências de mercado.
+7. 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+- Conexão direta entre produtores e revendedores, reduzindo custos e aumentando a margem de lucro.
+- Produtos frescos e saudáveis para os revendedores, aumentando a qualidade dos produtos oferecidos aos clientes.
+- Eliminação de intermediários, tornando os produtos mais acessíveis aos consumidores finais.
+- Funcionalidades do Produto (a serem detalhadas posteriormente):
+- Plataforma online para produtores e revendedores se conectarem e negociarem diretamente.
+- Sistema de gerenciamento de pedidos e entregas.
+- Rastreamento de produtos para garantir a qualidade e frescor.
+- Ferramentas para comunicação e negociação entre as partes envolvidas.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
+1. Plataforma de Conexão Direta: O software oferece uma plataforma online que permite que produtores e revendedores se conectem e negociem diretamente, facilitando o acesso ao mercado.
+2. Comunicação em Tempo Real: O sistema oferece ferramentas de comunicação em tempo real, possibilitando a negociação imediata de preços, quantidades e detalhes de entrega.
+3. Logística Simplificada: O software oferece recursos para agendar e rastrear entregas, tornando a logística mais eficiente e reduzindo a chance de erros.
+4. Eliminação de Intermediários: Ao eliminar intermediários, o software ajuda a reduzir os custos e aumentar a margem de lucro para produtores e a acessibilidade para os revendedores e consumidores.
+5. Rastreabilidade e Qualidade Garantida: A plataforma permite que todos os envolvidos rastreiem a origem e a qualidade dos produtos, aumentando a confiança dos consumidores.
+6. Análises de Dados Estratégicos: O sistema coleta dados sobre preferências de compra, demanda e tendências de mercado, fornecendo insights valiosos para tomadas de decisão informadas.
+   
 ## Relação com a Extensão Universitária
 
 Relacionar a situação-problema da organização com o impacto social esperado com a implantação do sistema sociotécnico.
