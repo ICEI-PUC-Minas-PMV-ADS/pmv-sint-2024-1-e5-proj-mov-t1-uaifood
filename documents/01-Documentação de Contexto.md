@@ -1,7 +1,5 @@
 # Introdução
 
-Para os pequenos produtores, que tem a terra como sua principal fonte de sustento e cuja sua grande dificuldade é comercializar o que produzem no comércio local, e não precisando sair às escuras sem garantia de venda do seu produto. Consequentemente será privilegiado o revendedor que terá produtos saudáveis e frescos todos os dias para oferecerem aos seus clientes, assim não dependendo de intermediários e necessitando à título de economia estocar produtos, correndo o risco de perder seu investimento, especialmente em períodos de clima quente.
-
 O "UaiFood" é um software de relacionamento direto entre pequenos produtores agrícolas e revendedores locais, eliminando a necessidade de intermediários distribuidores. Isso possibilita que os produtos frescos e saudáveis dos produtores cheguem aos revendedores a preços mais acessíveis, aumentando os lucros para ambos os lados. Como consequência disso os consumidores finais se beneficiam com saúde, satisfação e economia.
 
 ## Problema
