@@ -2,13 +2,38 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+(Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.)
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+(Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto).
+
+A idealização do projeto foi baseada na necessidade dos produtores rurais venderem os seus produtos aos revendedores e eles conseguirem um acesso mais direto por meio desse software. O processo de criação se baseia no usuário, de modo que ele possa usufruir da ferramenta proposta de forma simples e intuitiva.
+
+## Personas
+
+A partir do público alvo definido e da pesquisa realizada com esse público, foram elaboradas as personas elencadas no quadro a seguir:
+
+|Nome|Perfil|Expectativas|Atividades|
+|----|------|------------|----------|
+|Maria Emília (Agricultora Familiar)|Maria Emília é agricultora, tem 42 anos, classe baixa, brasileira, mãe de três filhos, mora em Belo Horizonte (MG) e trabalha com a agricultura familiar produzindo em seu quintal hortaliças e leguminosas.Ela gosta de trabalhar com a terra e se dedica também a criar galinhas. Tem profundo respeito com a natureza e gosta de cachorro. Ama os filhos e marido, adepta a novidades no mercado que possa facilitar o seu trabalho, gosta de ler, ver programas sobre agricultura na TV e passear com a família no parque.|Maria Emília tem como principal objetivo, conseguir vender sua produção de maneira mais acessível. Lamenta quando sai para vender seus produtos e volta com sobras para casa.|Ela almeja um produto que a possibilite escoar sua produção de maneira ampla, simples e funcional.Maria Emília prioriza sua produção conforme demanda, gostaria de obter uma agenda para se organizar em suas atividades.|
+|José Duarte (Agricultor Familiar)|José Duarte tem 53 anos, brasileiro, residente em Sarzedo (MG). É pai de família e trabalha com a agricultura familiar e emprega como mão de obra os membros da família.Nos momentos de lazer ele assiste TV e leva a família para passear no zoológico, parque ou cinema. Gosta de animais como cavalo e cachorro e fica admirado com a imensidão do mar. Aprecia a natureza e sua maior preocupação é com o meio ambiente, busca conhecimento e procura praticar a preservação.|O grande desafio do José Duarte é conseguir escoar toda a sua produção, pois ele e sua família dedicam o tempo integral no cultivo das leguminosas e criação de patos. Tem vontade de voltar a estudar e ter um melhor conhecimento em tecnologias que agreguem valor ao seu negócio.|José Duarte faz sua administração de forma manual, gostaria de obter meios digitais para realizar esta tarefa e assim conseguir tempo para voltar estudar.|
+|João Alberto (Comerciante)|João Alberto é comerciante e tem 48 anos, classe média, brasileiro, natural de Belo Horizonte, formado em administração e comerciante, casado e pai de dois filhos; Maria Alice e João Pedro. João trabalha com vendas de leguminosas e carne. João Alberto aprecia uma boa leitura e series de TV, especialmente documentários históricos. Gosta de pets e ama brincar com os filhos.|Seu maior desafio é ter diariamente produtos frescos, saudáveis e barato para oferecer aos seus clientes. João precisa acordar de madrugada 2 vezes por semana para ir a um centro distribuidor e obter produtos para fomentar seu comércio, sem contar que ele tem que atentar as informações sobre o clima da semana para poder comprar somente produtos que resistam a temperatura daquela semana e assim não ter prejuízo com a deterioração de algum produto.|João Alberto está sempre em busca de aprimorar a qualidade e preços de seus produtos e assim fazer a diferença no mercado, oferecendo produtos sem agrotóxicos e fertilizantes químicos.|
+
+## Histórias de Usuário
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
 
 ## Arquitetura e Tecnologias
 
-o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a serem utilizadas. Sugere-se a criação de um diagrama de componentes da solução.
+- Desenvolvimento front-end e back-end: Visual Studio Code, React Native, HTML, CSS, Javascript;
+- Modelagem de Dados: 
+- Banco de Dados:
+- Comunicação equipe: Whatsapp, Microsoft Teams;
+- Versionamento de Código: Git e Github;
+- Planejamento: Metodologia Scrum e Trello.
+
+(o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a serem utilizadas. Sugere-se a criação de um diagrama de componentes da solução.)
 
 ## Project Model Canvas
 
@@ -54,10 +79,15 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                                |
+|--|----------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do semestre    |
+|02| Não pode ser desenvolvido um módulo de backend           |
+|03| O projeto deverá ter um banco de dados                   |
+|04| O projeto deverá ser desenvolvido utilizando React native|
+|05| As informações cadastradas no sistema devem ter restrição de edição, garantindo a integridade das informações|
+|06| O sistema deve permitir o acesso apenas a usuários autorizados, como produtores e revendedores|
+
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
@@ -67,9 +97,9 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+(O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.)
 
 > **Links Úteis**:
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
@@ -80,14 +110,17 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER (Projeto Conceitual)
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
+![Projeto UaiFood](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e4-proj-dist-t1-time2-projuaifood/assets/102733574/31471525-5ca3-4ad5-bf4b-be02a55a7200)
+
+(O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
 
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
+A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.)
 
 > - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
+
+(O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.)
