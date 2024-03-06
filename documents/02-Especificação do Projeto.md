@@ -21,6 +21,8 @@ A partir do público alvo definido e da pesquisa realizada com esse público, fo
 ## Histórias de Usuário
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
+|EU COMO... Maria Emília| QUERO/PRECISO ... de um aplicativo que me permita vender minha produção de maneira mais ágil e acessível.  |PARA ... Maria Emília deseja alcançar mais clientes e garantir que seus produtos sejam pedidos e entregues de forma mais eficiente.                 |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 
