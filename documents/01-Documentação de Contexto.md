@@ -32,7 +32,12 @@ O "UaiFood" é um software de relacionamento direto entre pequenos produtores ag
    
 ## Relação com a Extensão Universitária
 
-Relacionar a situação-problema da organização com o impacto social esperado com a implantação do sistema sociotécnico.
+1. Inclusão e Empoderamento dos Pequenos Produtores: Ampliação do acesso ao mercado, empoderando economicamente os pequenos produtores.
+2. Crescimento Econômico Local: Eliminação de intermediários impulsionando o crescimento econômico e investimentos locais.
+3. Acesso a Alimentos Mais Saudáveis e Acessíveis: Redução de custos tornando produtos frescos mais acessíveis à comunidade.
+4. Otimização da Logística e Redução de Desperdícios: Melhoria na logística, reduzindo erros e desperdícios de alimentos.
+5. Confiança dos Consumidores na Qualidade dos Produtos: Rastreabilidade aumenta a confiança dos consumidores na origem e qualidade dos produtos.
+6. Geração de Dados Estratégicos para Melhores Decisões: Coleta de dados para decisões informadas, beneficiando produtores e revendedores.
 
 ## Descrição do Parceiro
 
