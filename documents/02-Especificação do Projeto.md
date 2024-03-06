@@ -21,8 +21,11 @@ A partir do público alvo definido e da pesquisa realizada com esse público, fo
 ## Histórias de Usuário
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... Maria Emília| QUERO/PRECISO ... de um aplicativo que me permita vender minha produção de maneira mais ágil e acessível. |PARA ...  alcançar mais clientes e garantir que seus produtos sejam pedidos e entregues de forma mais eficiente.                 |
 |--------------------|------------------------------------|----------------------------------------|
+|EU COMO... José Duarte| QUERO/PRECISO ... de um aplicativo que me ajude a agilizar o processo de escoar toda a produção |PARA ...  reduzir o indice de desperdício e que facilite a venda de seus produtos                 |
+|EU COMO... João Alberto| QUERO/PRECISO ... de um aplicativo que me forneça acesso diário a produtos frescos, saudáveis e baratos |PARA ...  atender às necessidades dos meus clientes e manter a qualidade dos produtos para que sua clientela fique satiseita    |
+
 
 ## Arquitetura e Tecnologias
 
