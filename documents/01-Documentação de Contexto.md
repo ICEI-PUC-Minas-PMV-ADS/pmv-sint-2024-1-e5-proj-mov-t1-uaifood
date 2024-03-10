@@ -42,3 +42,5 @@ O "UaiFood" é um software de relacionamento direto entre pequenos produtores ag
 ## Descrição do Parceiro
 
 UaiFood é uma plataforma inovadora que visa transformar a cadeia de fornecimento de produtos agrícolas. Atualmente, a organização enfrenta desafios com a dificuldade de pequenos produtores em acessar o mercado, a falta de conexão direta entre produtores e revendedores, e questões relacionadas à logística, transparência e dados estratégicos.
+
+[Retorna](../README.md)
