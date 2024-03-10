@@ -15,6 +15,7 @@
 ![Imagem_AgriculturaFamiliar03](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/4db6bf89-a6ce-4b42-b3ca-d888dec06fae)
 ![Imagem_AgriculturaFamiliar04](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/69b57132-4ba7-4684-9688-5f2e9e7b33ce)
 
+[Retorna](../README.md)
 
-Você deve colocar aqui todas as atas dos encontros realizados com o parceiro.
+
 
