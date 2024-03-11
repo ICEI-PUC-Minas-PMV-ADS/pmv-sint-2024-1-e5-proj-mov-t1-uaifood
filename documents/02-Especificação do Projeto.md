@@ -58,8 +58,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001|O sistema deve ser responsivo para rodar em um dispositivos móveis |MÉDIA| 
-|RNF-002|Deve processar requisições do usuário em no máximo 3s |MÉDIA| 
+|RNF-001|O sistema deve ser responsivo para rodar em um dispositivos móveis. |MÉDIA| 
+|RNF-002|Deve processar requisições do usuário em no máximo 3s. |MÉDIA| 
 |RNF-003|O sistema deve garantir que os dados dos clientes sejam seguros e protegidos.|ALTA| 
 |RNF-004|O aplicativo deve ser intuitivo e fácil de usar, mesmo para usuários inexperientes.|MÉDIA|
 |RNF-005|O aplicativo deve estar disponível 24 horas por dia.|ALTA| 
@@ -67,23 +67,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+O projeto está restrito pelos itens apresentados na tabela a seguir:
 
 |ID| Restrição                                                |
 |--|----------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre    |
-|02| Não pode ser desenvolvido um módulo de backend           |
-|03| O projeto deverá ter um banco de dados                   |
-|04| O projeto deverá ser desenvolvido utilizando React native|
-|05| As informações cadastradas no sistema devem ter restrição de edição, garantindo a integridade das informações|
-|06| O sistema deve permitir o acesso apenas a usuários autorizados, como produtores e revendedores|
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| O projeto deverá ser entregue até o final do semestre.   |
+|02| Não pode ser desenvolvido um módulo de backend.          |
+|03| O projeto deverá ter um banco de dados.                  |
+|04| O projeto deverá ser desenvolvido utilizando React native.|
+|05| As informações cadastradas no sistema devem ter restrição de edição, garantindo a integridade das informações.|
+|06| O sistema deve permitir o acesso apenas a usuários autorizados, como produtores e revendedores.|
 
 ## Diagrama de Casos de Uso
 
