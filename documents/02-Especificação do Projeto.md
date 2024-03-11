@@ -2,10 +2,6 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-(Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.)
-
-(Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto).
-
 A idealização do projeto foi baseada na necessidade dos produtores rurais venderem os seus produtos aos revendedores e eles conseguirem um acesso mais direto por meio desse software. O processo de criação se baseia no usuário, de modo que ele possa usufruir da ferramenta proposta de forma simples e intuitiva.
 
 ## Personas
@@ -36,8 +32,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 - Versionamento de Código: Git e Github;
 - Planejamento: Metodologia Scrum e Trello.
 
-(o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a serem utilizadas. Sugere-se a criação de um diagrama de componentes da solução.)
-
 ## Project Model Canvas
 
 Colocar a imagem do modelo construído apresentando a proposta de solução.
@@ -53,30 +47,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001|O software deve possuir um catálogo de produtos exibindo uma lista incluindo informações como preço, descrição e imagens. |ALTA| 
+|RF-002|O software deve permitir que o usuário se cadastre e faça login. |MÉDIA|
+|RF-003|O software deve ter a capacidade de adicionar e cancelar itens do carrinho de compras.|ALTA| 
+|RF-004|O sistema deve manter o controle de estoque de produtos disponíveis. |MÉDIA|
+|RF-005|O software deve permitir cancelar a compra dos produtos. |ALTA| 
+|RF-006|O sistema deve integrar diferentes formas de pagamento.| MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001|O sistema deve ser responsivo para rodar em um dispositivos móveis |MÉDIA| 
+|RNF-002|Deve processar requisições do usuário em no máximo 3s |MÉDIA| 
+|RNF-003|O sistema deve garantir que os dados dos clientes sejam seguros e protegidos.|ALTA| 
+|RNF-004|O aplicativo deve ser intuitivo e fácil de usar, mesmo para usuários inexperientes.|MÉDIA|
+|RNF-005|O aplicativo deve estar disponível 24 horas por dia.|ALTA| 
+|RNF-006|O aplicativo deve ser capz de lidar com um aumento repentino no número de usuários e transações.|ALTA|
 
 ## Restrições
 
