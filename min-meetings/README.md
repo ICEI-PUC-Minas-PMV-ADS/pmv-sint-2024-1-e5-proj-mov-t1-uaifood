@@ -15,6 +15,19 @@
 ![Imagem_AgriculturaFamiliar03](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/4db6bf89-a6ce-4b42-b3ca-d888dec06fae)
 ![Imagem_AgriculturaFamiliar04](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/69b57132-4ba7-4684-9688-5f2e9e7b33ce)
 
+### Reunião com Comerciante Local:
+
+![PUC AtaComerciante1_projeo_Eixo5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/6f067339-1db5-4ee3-9d6f-21ec384a7df6)
+![PUC AtaComerciante2_projeo_Eixo5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/39bd3521-7cf0-475a-8e42-f9282ceebd23)
+![PUC AtarComerciante3_projeo_Eixo5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/4f198bfc-906b-4bfe-84f2-510e0092d0af)
+
+### Imagens:
+
+![ImageComercio1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/eea5d985-4cb7-4c78-a10c-df7537f4f675)
+![ImageComercio2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/a9c36fb0-a97d-4767-91e6-5eb1160abbde)
+![ImageComercio3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/6c53c7c6-4ed6-4058-8057-b1a83f43c258)
+
+
 [Retorna](../README.md)
 
 
