@@ -19,7 +19,8 @@
 
 ![PUC AtaComerciante1_projeo_Eixo5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/6f067339-1db5-4ee3-9d6f-21ec384a7df6)
 ![PUC AtaComerciante2_projeo_Eixo5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/39bd3521-7cf0-475a-8e42-f9282ceebd23)
-![PUC AtarComerciante3_projeo_Eixo5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/4f198bfc-906b-4bfe-84f2-510e0092d0af)
+![PUC_AtaComerciante3_projeto_Eixo5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/102733574/4e607b8d-a3fb-4f98-acfc-2af51b95c767)
+
 
 ### Imagens:
 
