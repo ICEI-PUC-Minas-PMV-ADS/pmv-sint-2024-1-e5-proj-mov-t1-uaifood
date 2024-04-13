@@ -80,7 +80,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir:
 
 ## Diagrama de Casos de Uso
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/blob/main/documents/img/casos-de-uso-uaifood.jpg
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/85380151/0f74985e-c715-44dd-8477-2a6fe2df41d9)
+
 <!--(O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.)
