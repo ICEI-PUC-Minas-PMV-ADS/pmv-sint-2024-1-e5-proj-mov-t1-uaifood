@@ -1,13 +1,14 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const morgan = require('morgan');
+
+// middleware
+app.use(express.json());
+app.use(morgan('tiny'));
 
 // dotenv
 require('dotenv/config');
 const api = process.env.API_URL;
-
-// middleware
-app.use(express.json());
 
 app.get(`${api}/produtos`, (req, res) => {
   const product = {
@@ -24,6 +25,6 @@ app.post(`${api}/produtos`, (req, res) => {
   res.send(newProduct);
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+app.listen(3000, () => {
+  console.log(`Server is running on http://localhost:3000`);
 });
