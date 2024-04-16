@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const morgan = require('morgan');
+const mongoose = require('mongoose');
 
 // middleware
 app.use(express.json());
@@ -24,6 +25,16 @@ app.post(`${api}/produtos`, (req, res) => {
   console.log(newProduct);
   res.send(newProduct);
 });
+
+mongoose.connect(process.env.CONNECTION_STRING, {
+  dbName: 'uaifood-database'
+})
+.then(() => {
+  console.log('Database connection is ready');
+})
+.catch(err => {
+  console.log(err);
+})
 
 app.listen(3000, () => {
   console.log(`Server is running on http://localhost:3000`);
