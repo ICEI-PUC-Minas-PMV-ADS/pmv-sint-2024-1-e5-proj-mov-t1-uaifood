@@ -3,28 +3,17 @@ const app = express();
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 
+require('dotenv/config');
+const api = process.env.API_URL;
+
+const productsRouter = require('./routers/products');
+
 // middleware
 app.use(express.json());
 app.use(morgan('tiny'));
 
-// dotenv
-require('dotenv/config');
-const api = process.env.API_URL;
-
-app.get(`${api}/produtos`, (req, res) => {
-  const product = {
-    id: 1,
-    name: 'tomate',
-    image:'some_url'
-  }
-  res.send(product);
-});
-
-app.post(`${api}/produtos`, (req, res) => {
-  const newProduct = req.body;
-  console.log(newProduct);
-  res.send(newProduct);
-});
+// routers
+app.use(`${api}/produtos`, productsRouter);
 
 mongoose.connect(process.env.CONNECTION_STRING, {
   dbName: 'uaifood-database'
