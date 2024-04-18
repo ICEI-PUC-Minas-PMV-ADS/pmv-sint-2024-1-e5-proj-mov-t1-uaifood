@@ -5,11 +5,15 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv/config');
 
-// Middleware
+// cors
+app.use(cors());
+app.options('*', cors());
+
+// middleware
 app.use(express.json());
 app.use(morgan('tiny'));
 
-// Routes
+// routes
 const categoriesRoutes = require('./routers/categories');
 const productsRoutes = require('./routers/products');
 const usersRoutes = require('./routers/users');
@@ -22,7 +26,7 @@ app.use(`${api}/produtos`, productsRoutes);
 app.use(`${api}/usuarios`, usersRoutes);
 app.use(`${api}/pedidos`, ordersRoutes);
 
-// Database
+// database
 mongoose.connect(process.env.CONNECTION_STRING, {
   dbName: 'uaifood-database'
 })
@@ -33,7 +37,7 @@ mongoose.connect(process.env.CONNECTION_STRING, {
   console.log(err);
 })
 
-// Server
+// server
 app.listen(3000, () => {
   console.log(`Server is running on http://localhost:3000`);
 });
