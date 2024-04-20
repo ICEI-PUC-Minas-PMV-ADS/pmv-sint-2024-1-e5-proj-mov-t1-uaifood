@@ -11,6 +11,15 @@ router.get('/', async (req, res) => {
   res.send(categoryList);
 });
 
+router.get('/:id', async (req, res) => {
+  const category = await Category.findById(req.params.id);
+
+  if(!category) {
+    res.status(500).json({ message: 'A categoria não foi encontrada' });
+  }
+  res.send(category);
+});
+
 router.post('/', async (req, res) => {
   let category = new Category({
     name: req.body.name,
