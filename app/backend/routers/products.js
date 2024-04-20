@@ -1,6 +1,6 @@
 const { Product } = require('../models/product');
-const { Category } = require('../models/category');
 const express = require('express');
+const { Category } = require('../models/category');
 const router = express.Router();
 const mongoose = require('mongoose');
 
@@ -90,5 +90,17 @@ router.delete('/:id', (req, res) => {
     return res.status(400).json({ success: false, error: err});
   });
 });
+
+router.get(`/get/estatistica`, async (req, res) => {
+  const productCount = await Product.countDocuments();
+
+  if (!productCount) {
+      res.status(500).json({ success: false });
+  }
+  res.send({
+      productCount: productCount,
+  });
+});
+
 
 module.exports = router;
