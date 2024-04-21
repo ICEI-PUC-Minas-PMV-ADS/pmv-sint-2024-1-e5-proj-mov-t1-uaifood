@@ -15,7 +15,7 @@ router.get('/:id', async (req, res) => {
   const category = await Category.findById(req.params.id);
 
   if(!category) {
-    res.status(500).json({ message: 'A categoria não foi encontrada' });
+    res.status(500).json({ message: 'A categoria não foi encontrada!' });
   }
   res.send(category);
 });
@@ -30,7 +30,7 @@ router.post('/', async (req, res) => {
   category = await category.save();
 
   if(!category)
-  return res.status(404).send('A categoria não pode ser criada');
+  return res.status(400).send('A categoria não pode ser criada!');
 
   res.send(category);
 });
