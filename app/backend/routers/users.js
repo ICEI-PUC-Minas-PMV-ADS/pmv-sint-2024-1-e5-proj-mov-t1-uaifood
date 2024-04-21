@@ -66,7 +66,6 @@ router.post('/login', async (req, res) => {
   } else {
     res.status(400).send('Senha incorreta!')
   }
-  
 });
 
 
