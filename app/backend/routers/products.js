@@ -96,15 +96,13 @@ router.delete('/:id', (req, res) => {
   });
 });
 
-router.get(`/total`, async (req, res) => {
+router.get(`/get/total`, async (req, res) => {
   const productCount = await Product.countDocuments();
 
   if (!productCount) {
       res.status(500).json({ success: false });
   }
-  res.send({
-      productCount: productCount,
-  });
+  res.send({ productCount: productCount });
 });
 
 router.get(`/destaque/:count`, async (req, res) => {
