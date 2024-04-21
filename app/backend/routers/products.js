@@ -191,6 +191,7 @@ router.put(
       if (!mongoose.isValidObjectId(req.params.id)) {
           return res.status(400).send('ID do produto inválido');
       }
+      
       const files = req.files;
       let imagesPaths = [];
       const basePath = `${req.protocol}://${req.get('host')}/public/uploads/`;
