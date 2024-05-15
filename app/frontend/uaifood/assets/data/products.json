@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "66243bc435aefa4808257a19"
+  },
+  "image": "https://images.unsplash.com/photo-1587496679742-bad502958fbf?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "brand": "Produtor X",
+  "price": 0.8,
+  "rating": 4,
+  "numReviews": 55,
+  "isFeatured": true,
+  "name": "Limão",
+  "description": "Nossa limão é a estrela cítrica que você precisa em sua vida!",
+  "category": {
+    "$oid": "66233b46a0ecbb9fd71aec50"
+  },
+  "countInStock": 25,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66243a698c3449ab8df97ee0"
+  },
+  "image": "https://images.unsplash.com/photo-1423483641154-5411ec9c0ddf?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "brand": "Produtor X",
+  "price": 1,
+  "rating": 4.9,
+  "numReviews": 60,
+  "isFeatured": false,
+  "name": "Uva",
+  "description": "Nossa uva é o que você precisa em sua vida!",
+  "category": {
+    "$oid": "66233b46a0ecbb9fd71aec50"
+  },
+  "countInStock": 10,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66240e93bdac29ad502b1293"
+  },
+  "image": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "brand": "Produtor X",
+  "price": 0.8,
+  "rating": 4.88,
+  "numReviews": 80,
+  "isFeatured": true,
+  "name": "Laranja",
+  "description": "Suculenta e cheia de sabor, nossa laranja é a estrela cítrica que você…",
+  "category": {
+    "$oid": "5f15d5b7cb4a6642bddc0fe8"
+  },
+  "countInStock": 5,
+  "__v": 0
+},{
+
+  "image": "https://images.unsplash.com/photo-1595739431055-6c308d9f5af3?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "brand": "Produtor Y",
+  "price": 1.2,
+  "rating": 5,
+  "numReviews": 30,
+  "isFeatured": true,
+  "name": "Alface",
+  "description": "Alface fresquinha para sua casa",
+  "category": {
+    "$oid": "66233bdfa0ecbb9fd71aec52"
+  },
+  "countInStock": 10,
+  "__v": 0
+}]
