@@ -25,7 +25,7 @@ const ProductCard = ({ name, price, image, countInStock }) => {
 
       {countInStock > 0 ? (
         <View style={{ marginBottom: 60 }}>
-          <Button title={"Adicionar"} color={"green"} />
+          <Button title={"Adicionar"} style={{ color: "green " }} />
         </View>
       ) : (
         <Text style={{ marginTop: 20 }}>Indisponível no momento</Text>
@@ -69,7 +69,6 @@ const styles = StyleSheet.create({
     marginTop: 10,
     fontSize: 18,
     color: "orange",
-    marginTop: 10,
   },
 });
 
