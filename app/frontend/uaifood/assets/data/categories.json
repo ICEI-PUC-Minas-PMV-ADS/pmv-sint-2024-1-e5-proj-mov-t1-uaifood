@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "66233b46a0ecbb9fd71aec50"
+  },
+  "name": "frutas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66233bdfa0ecbb9fd71aec52"
+  },
+  "name": "hortaliças",
+  "__v": 0
+}]

@@ -8,7 +8,12 @@ const SearchedProducts = ({ productsFiltered }) => {
     <Content style={{ width: width }}>
       {productsFiltered.length > 0 ? (
         productsFiltered.map((item) => (
-          <ListItem key={item.id}>
+          <ListItem
+              onPress={() => {
+                props.navigation.navigate("Detalhe do Produto", {item: item})
+              }}
+              key={item.id}
+          >
             <Left>
               <Thumbnail source={{ uri: item.image ? item.image : "empty" }} />
             </Left>
@@ -32,7 +37,7 @@ const SearchedProducts = ({ productsFiltered }) => {
 const styles = StyleSheet.create({
   center: {
     justifyContent: "center",
-    alignItems: "cente",
+    alignItems: "center",
   },
 });
 
