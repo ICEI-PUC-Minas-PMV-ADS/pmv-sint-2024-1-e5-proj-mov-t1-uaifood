@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 let { width } = Dimensions.get("window");
 
 const ProductList = (props) => {
-  const {item} = props;
+  const { item } = props;
   return (
     <TouchableOpacity
         style={{ width: "50%" }}

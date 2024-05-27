@@ -2,11 +2,13 @@ import React, {useState} from 'react'
 import {Image, View, StyleSheet, Text, ScrollView, Button} from 'react-native';
 import {Left, Right, Container, H1} from 'native-base';
 
+import { connect } from 'react-redux';
+// import * as actions from '../../redux/actions/cartActions';
 
 const SingleProduct = (props) => {
 
   const [item, setItem] = useState(props.route.params.item);
-  const [availability, setAvailability] = useState('');
+  const [availability, setAvailability] = useState(null);
 
   return (
       <Container style={styles.container}>
@@ -26,8 +28,24 @@ const SingleProduct = (props) => {
             <Text style={styles.contentText}>{item.brand}</Text>
           </View>
         </ScrollView>
+
+        <View style={styles.bottomContainer}>
+          <Left>
+            <Text style={styles.price}>R$ {item.price}</Text>
+          </Left>
+          <Right>
+            <Button title="Adicionar" />
+          </Right>
+        </View>
       </Container>
   );
+}
+
+const mapToDispatchToProps = (dispatch) => {
+  return {
+    addItemToCart: (product) =>
+        dispatch(actions.addToCart({quantity: 1, product}))
+  }
 }
 
 const styles = StyleSheet.create({
@@ -57,7 +75,19 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 20
-  }
+  },
+  bottomContainer: {
+    flexDirection: 'row',
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    backgroundColor: 'white'
+  },
+  price: {
+    fontSize: 24,
+    margin: 20,
+    color: 'red'
+  },
 });
 
-export default SingleProduct;
+export default connect(null, mapToDispatchToProps)(SingleProduct);

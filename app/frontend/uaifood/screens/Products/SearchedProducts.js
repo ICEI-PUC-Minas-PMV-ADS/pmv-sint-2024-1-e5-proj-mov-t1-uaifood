@@ -3,7 +3,8 @@ import { Content, Left, Body, ListItem, Thumbnail, Text } from "native-base";
 
 let { width } = Dimensions.get("window");
 
-const SearchedProducts = ({ productsFiltered }) => {
+const SearchedProducts = (props) => {
+  const { productsFiltered } = props;
   return (
     <Content style={{ width: width }}>
       {productsFiltered.length > 0 ? (
@@ -12,10 +13,15 @@ const SearchedProducts = ({ productsFiltered }) => {
               onPress={() => {
                 props.navigation.navigate("Detalhe do Produto", {item: item})
               }}
-              key={item.id}
+              key={item._id}
+              avatar
           >
             <Left>
-              <Thumbnail source={{ uri: item.image ? item.image : "empty" }} />
+              <Thumbnail
+                  source={{ uri: item.image ?
+                        item.image : ""
+                  }}
+              />
             </Left>
             <Body>
               <Text>{item.name}</Text>
@@ -38,6 +44,7 @@ const styles = StyleSheet.create({
   center: {
     justifyContent: "center",
     alignItems: "center",
+    height: 100
   },
 });
 

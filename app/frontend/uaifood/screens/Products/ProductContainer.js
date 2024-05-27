@@ -82,12 +82,12 @@ const ProductContainer = (props) => {
             onFocus={openList}
             onChangeText={(text) => searchProduct(text)}
           />
-          {focus == true ? (
+          {focus === true ? (
             <Ionicons onPress={onBlur} name="close" size={15} />
           ) : null}
         </Item>
       </Header>
-      {focus == true ? (
+      {focus === true ? (
         <SearchedProducts
             navigation={props.navigation}
             productsFiltered={productsFiltered}
