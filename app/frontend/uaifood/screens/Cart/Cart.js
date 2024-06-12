@@ -1,6 +1,6 @@
 import { Text, View, Dimensions, StyleSheet, Button } from "react-native";
 import { Container, Left, Right, ListItem, Thumbnail, Body } from "native-base";
-import * as actions from "../../redux/actions/cartActions.js";
+import * as actions from "../../redux/actions/cartActions";
 import { connect } from "react-redux";
 
 let { height } = Dimensions.get("window");

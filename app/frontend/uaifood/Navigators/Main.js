@@ -14,45 +14,45 @@ const Tab = createBottomTabNavigator();
 
 const Main = () => {
   return (
-      <Tab.Navigator
-          tabBarOptions={{
-            keyboardHidesTabBar: true,
-            showLabel: false,
-            activeTintColor: "#e91e63",
-          }}
-      >
-        <Tab.Screen
-            name="Home"
-            component={HomeNavigator}
-            options={{
-              tabBarIcon: ({ color }) => (
-                  <Icon name="home" color={color} size={30} />
-              ),
-            }}
-        />
-        <Tab.Screen
-            name="Carrinho"
-            component={CartNavigator}
-            options={{
-              tabBarIcon: ({ color }) => (
-                  <View>
-                    <Icon name="shopping-cart" color={color} size={30} />
-                    <CartIcon />
-                  </View>
-              ),
-            }}
-        />
+    <Tab.Navigator
+      tabBarOptions={{
+        keyboardHidesTabBar: true,
+        showLabel: false,
+        activeTintColor: "#e91e63",
+      }}
+    >
+      <Tab.Screen
+        name="Home"
+        component={HomeNavigator}
+        options={{
+          tabBarIcon: ({ color }) => (
+            <Icon name="home" color={color} size={30} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Cart"
+        component={CartNavigator}
+        options={{
+          tabBarIcon: ({ color }) => (
+            <View>
+              <Icon name="shopping-cart" color={color} size={30} />
+              <CartIcon />
+            </View>
+          ),
+        }}
+      />
 
-        <Tab.Screen
-            name="Usuário"
-            component={HomeNavigator}
-            options={{
-              tabBarIcon: ({ color }) => (
-                  <Icon name="user" color={color} size={30} />
-              ),
-            }}
-        />
-      </Tab.Navigator>
+      <Tab.Screen
+        name="Usuário"
+        component={HomeNavigator}
+        options={{
+          tabBarIcon: ({ color }) => (
+            <Icon name="user" color={color} size={30} />
+          ),
+        }}
+      />
+    </Tab.Navigator>
   );
 };
 
