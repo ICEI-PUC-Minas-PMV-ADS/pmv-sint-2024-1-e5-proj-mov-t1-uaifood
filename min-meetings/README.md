@@ -33,7 +33,7 @@
 
 ## Acordo de Parceria
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/blob/main/min-meetings/322157364-5a219267-8d56-46fd-bf1f-1b55e0d90c5c.pdf
+![ImagemParceria](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/blob/main/min-meetings/322157364-5a219267-8d56-46fd-bf1f-1b55e0d90c5c.pdf)
 
 [Retorna](../README.md)
 
