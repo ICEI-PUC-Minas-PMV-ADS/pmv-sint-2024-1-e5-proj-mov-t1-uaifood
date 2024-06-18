@@ -25,15 +25,15 @@ Critérios de Entrada e Saída: Entrada: Código revisado e ambiente configurado
 
 vídeos que comprovam que os determinados testes foram executados em sua respectiva ordem do software em funcionamento.
 
+Teste 1 <br/> 
 
-Teste 1 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/75402234/c26070e6-9934-48a9-950d-dcb0249dfa3c
 
+Teste 2 <br/> 
 
-Teste 2
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/75402234/fb98b7df-7440-42b5-b325-d9264d162817
 
+Teste 3 <br/> 
 
-Teste 3 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-sint-2024-1-e5-proj-mov-t1-uaifood/assets/75402234/27577d62-a58f-40b4-95f2-8f7dc44fd24c
 
