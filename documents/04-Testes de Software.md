@@ -4,21 +4,21 @@ Objetivo do Teste: Garantir que a funcionalidade de adicionar produtos ao carrin
 Escopo do Teste: Testar o botão “Adicionar” na página principal e receber atualizações no ícone do carrinho.<br/> 
 Ambiente de Teste: Dispositivo Desktop utilizando o aplicativo Android Studio. <br/> 
 Cronograma: Início dos testes: 10/06/2024 Término dos testes: 13/06/2024. <br/> 
-Critérios de Entrada e Saída: Entrada: Código revisado e ambiente configurado; Saída: Todos os casos de teste executados sem erros crítico. <br/> 
+Critérios de Entrada e Saída: Entrada: Código revisado e ambiente configurado; Saída: Todos os casos de teste executados sem erros críticos. <br/> 
 
 Teste 2 <br/> 
 Objetivo do Teste: Assegurar que a barra de pesquisa funcione corretamente, retornando os resultados esperados para diferentes termos de pesquisa no dispositivo. <br/> 
 Escopo do Teste: Testar a funcionalidade da barra de pesquisa, incluindo resposta ao digitar, sugestões automáticas e os resultados da pesquisa. <br/> 
 Ambiente de Teste:  Dispositivo Desktop utilizando o aplicativo Android Studio. <br/> 
 Cronograma: Início dos testes: 10/06/2024 Término dos testes: 13/06/2024. <br/> 
-Critérios de Entrada e Saída: Entrada: Código revisado e ambiente configurado; Saída: Todos os casos de teste executados sem erros crítico. <br/> 
+Critérios de Entrada e Saída: Entrada: Código revisado e ambiente configurado; Saída: Todos os casos de teste executados sem erros críticos. <br/> 
 
 Teste 3 <br/> 
 Objetivo do Teste: Verificar se a interação com produtos na página inicial e permitir que usuários visualizem todas as informações e detalhes do produto. <br/> 
 Escopo do Teste: Incluirá testes da interface do usuário para garantir que todos os elementos interativos estejam funcionando e exibindo as informações do produto correto. <br/> 
 Ambiente de Teste: Dispositivo Desktop utilizando o aplicativo Android Studio. <br/> 
 Cronograma: Início dos testes: 10/06/2024 Término dos testes: 13/06/2024. <br/>
-Critérios de Entrada e Saída: Entrada: Código revisado e ambiente configurado; Saída: Todos os casos de teste executados sem erros crítico. <br/> 
+Critérios de Entrada e Saída: Entrada: Código revisado e ambiente configurado; Saída: Todos os casos de teste executados sem erros críticos. <br/> 
 
 
 # Evidências de Testes de Software
